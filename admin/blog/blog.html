@@ -5,6 +5,7 @@
 	<title>Shop</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="../../style.css">
 	<link rel="icon" type="image/png" href="../../images/favicon.png">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -17,9 +18,9 @@
 	<div class="container"> <!-- navigacija -->
 		<div class="row navbar bg-dark">
 			<!-- ====================  LOGO  ==================== -->
-			<div class="col-3 d-none d-sm-block"> <!-- logo -->
-				<img src="../../images/favicon.png" class="nav-item"><span class="logo-span">Shop</span>
-			</div> <!-- logo -->
+      <div class="col-3 d-none d-sm-block"> <!-- logo -->
+          <a href="index.html"><img src="../../images/logo.png" class="nav-item"></a>
+      </div> <!-- logo -->
 			<nav class="navbar navbar-expand-lg navbar-dark">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -27,8 +28,13 @@
 				<!-- ====================  NAVIGATION  ==================== -->
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
 						<li class="nav-item active">
-							<a class="nav-link" href="index.html">Pocetna <span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="../index.html">Pocetna <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../artikli/dodajArtikal.html">Artikli</a>
 						</li>
 						<li class="nav-item">
 							<!-- <div class="broj-komentara">0</div> -->

@@ -29,11 +29,13 @@ a>h4{
   padding: 5px;
   height: 40px;
 }
-a[href="blog.html"]{
+a[href="blog.html"],
+a[href="../blog/blog.html"]{
   position: relative;
   margin-right: 10px;
 }
-a[href="blog.html"]>.badge-danger{
+a[href="blog.html"]>.badge-danger,
+a[href="../blog/blog.html"]>.badge-danger{
   position: absolute;
   top: 12px;
   left: 42px;
