@@ -7,6 +7,37 @@ strong{ display: block; }
 }
 table{ margin-top: 20px; }
 
+/*==========  INDEX  ==========*/
+.cat-btn{
+  text-align: center;
+}
+.badge-secondary{
+  position: absolute;
+  top: 22px;
+  left: 130px;
+  background: rgb(19,131,222);
+}
+a>h4{
+  margin: 10px 5px 10px -20px;
+}
+.card-block>.badge-danger{
+  margin-top: 5px;
+  width: 30px;
+  font-size: 20px;
+}
+.btn-outline-success{
+  padding: 5px;
+  height: 40px;
+}
+a[href="blog.html"]{
+  position: relative;
+  margin-right: 10px;
+}
+a[href="blog.html"]>.badge-danger{
+  position: absolute;
+  top: 12px;
+  left: 42px;
+}
 /*==========  BLOG  ==========*/
 .blog{
 	border: 1px solid #BCB6B6;
@@ -42,7 +73,6 @@ table{ margin-top: 20px; }
 	float: right;
 	color: #868282;
 }
-
 /*==========  NOVI  BLOG  ==========*/
 .new-blog{
 	width: 100%;
@@ -81,7 +111,6 @@ input[type="file"]{
 	margin-bottom: 15px;
 }
 .date-picker{	float: right; }
-
 /*==========  EDIT  BLOG  ==========*/
 .single-blog p{ margin-top: 20px;}
 .card{ margin-bottom: 20px; width: 100%; }
