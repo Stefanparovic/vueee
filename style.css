@@ -4,13 +4,6 @@
   width: 135px;
   vertical-align: text-bottom;
 }
-.navbar span{
-  background: -webkit-linear-gradient(#780A0A, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 35px;
-}
-
 /*=========  MAIN  =========*/
 .main{ padding: 10px; }
 article{ padding: 10px; }
@@ -240,6 +233,11 @@ input[type=submit]:hover {
 /*==========  KRAJ LOGINA  ==========*/
 
 /************ danilo izmene ***********/
+body {
+    background-image: url("images/background/circles-and-roundabouts.png.png");
+    background-color: green;
+}
+
 #main {
     margin-top: 30px;
     margin-bottom: 30px
@@ -330,7 +328,4 @@ article div div div div:last-child {
 		color:#ccc;
 	}
 }
-
-
-
 /*==========  Kraj kontakt sloba  ==========*/
