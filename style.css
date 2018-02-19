@@ -1,0 +1,291 @@
+/*=========  GLOBAL  =========*/
+.clear{ clear: both; margin: 40px 0;}
+.navbar img{
+  width: 25px;
+  vertical-align: text-bottom;
+}
+.navbar span{
+  background: -webkit-linear-gradient(#780A0A, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+}
+
+/*=========  MAIN  =========*/
+.main{ padding: 10px; }
+article{ padding: 10px; }
+.blog-img{ width: 350px; }
+.blog-h2{ font-size: 76px; }
+
+/*==========  SIDEBAR  ==========*/
+.sidebar{ padding: 10px; }
+li{ list-style-type: none; }
+ul{ padding: 0; }
+
+/*==========  BLOG  ==========*/
+.cat-png{
+  width: 70px;
+  vertical-align: baseline;
+  margin-right: -10px;
+}
+
+/*==========  SINGLE  BLOG  ==========*/
+.single-blog p{ margin-top: 20px; }
+.single-blog h1{ color: #000000; }
+.card{ margin-bottom: 20px; }
+.card-header span:nth-of-type(1){  float: left; }
+.card-header span:nth-of-type(2){ float: right; }
+.single-blog img{ border-radius: 10px; }
+#komentar input[type='text']{ margin: 0 0 10px 0; }
+.show-comment{ margin-bottom: 15px; }
+.single-blog{
+  background: #B5F4F5;
+  margin: 20px 0;
+}
+.single-blog h1{
+  margin: 10px 0 15px 0;
+  text-align: left;
+}
+.datum{
+  color: #9A9999;
+  font-size: 13px;
+}
+
+
+/*==========  O  NAMA  ==========*/
+.onama{
+  padding: 10px;
+  margin: 30px -15px 0 -25px;
+  box-shadow: 3px 3px 7px #98F6EE;
+  overflow: hidden;
+}
+.onama img{
+  -webkit-transform: rotate(355deg);
+  -moz-transform: rotate(355deg);
+  -o-transform: rotate(355deg);
+  -ms-transform: rotate(355deg);
+  transform: rotate(355deg);
+  border-radius: 10px;
+  width: 250px;
+}
+img[src="images/onama.jpg"]{
+  margin: 0 15px 30px 30px;
+  float: right;
+}
+img[src="images/bagdog.jpg"]{
+  float: left;
+  margin: 20px 50px 30px 20px;
+}
+.paw{
+  text-align: center;
+}
+
+/*====================  O  HRANI  =======================*/
+.food{
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 7px #CBC5C5;
+}
+.food-logo{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.food-logo img{
+  width: 105px;
+}
+.food-h1{
+  color: #780A0A;
+  text-align: center;
+}
+.food-image{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.food-image img{
+  width: 450px !important;
+  border-radius: 10px;
+}
+.food-title{
+  text-align: center;
+  font-style: oblique;
+  color: #BC5256;
+}
+.food-text{
+  color: #808080;
+}
+
+
+/*====================  SCROLL BAR  =======================*/
+::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+::-webkit-scrollbar{
+  width: 8px;
+  height: 9px;
+  background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 4px;
+  background-color: #FFF;
+  background-image: -webkit-gradient(
+    linear,
+    40% 0%,
+    75% 84%,
+    from(#00BFFF),
+    to(#00BFFF),
+    color-stop(.5,#98F6EE)
+  );
+}
+::-webkit-scrollbar-thumb:hover{
+  background-image: -webkit-gradient(
+    linear,
+    40% 0%,
+    75% 84%,
+    from(#003DFF),
+    to(#003DFF),
+    color-stop(.5,#98F6EE)
+  );
+}
+
+/*================================================================*/
+
+/*==========  MOJE ZA LOGIN  ==========*/
+form {
+  background: rgba(255, 255, 255, 0.9);
+  width: 380px;
+  border: 1px solid teal;
+  border-radius: 3px;
+  margin: 0 auto;
+  visibility: hidden;
+}
+form p {
+  width: 100%;
+  text-align: right;
+  padding: 2px 20px;
+  cursor: pointer;
+}
+form a {
+  color: whitesmoke;
+  text-shadow: 2px 1px 0px grey;
+}
+form img {
+  width: 48px;
+  height: 48px;
+  margin: 3px;
+}
+input {
+  width: 80%;
+  height: 30px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 2px 32px;
+  margin: 5px;
+  background-repeat: no-repeat;
+  background-position: 3px;
+}
+input[name="email"] {
+  background-image: url("images/mail.png");
+}
+input[name="password"] {
+  background-image: url("images/pass.png");
+}
+input[type=submit] {
+  position: relative;
+  background: teal;
+  color: white;
+  cursor: pointer;
+}
+input[type=submit]:active {
+  top: 3px;
+  box-shadow: 1px 2px 0px #bbb;
+}
+input[type=submit]:hover {
+  opacity: 0.7;
+}
+#buttonregister {
+    top: 3px;
+    position: relative;
+    background: teal;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 5px;
+}
+#buttonregister:hover {
+  box-shadow: 1px 2px 0px #bbb;
+  opacity: 0.7;
+
+}
+#register {
+  height: 320px;
+  position: relative;
+  top: -260px;
+}
+#login {
+  height: 260px;
+}
+#overlay {
+  position: fixed;
+  top: 0;
+  z-index: 25;
+  padding: 170px 0;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+}
+/*==========  KRAJ LOGINA  ==========*/
+
+/************ danilo izmene ***********/
+#main {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+#nav {
+    background-color: #e9ecef;
+    font-size: 1.2em;
+}
+#nav li:hover {
+    background-color: #54a552;
+    border-radius: 5px;
+}
+#nav li a {
+    height: 75px;
+}
+#nav li img {
+    height: 45px;
+}
+#nav li:hover img {
+    padding: 4px;
+}
+
+article p {
+    margin: 0;
+    padding: 0;
+}
+article.artikal1 img {
+    max-width: 100px;
+    max-height: 100px;
+}
+article.artikal2 img {
+    max-width: 500px;
+    max-height: 500px;
+}
+article div div div div:last-child {
+    background-color: antiquewhite;
+}
+/********* kraj danilo izmene *********/
+
+/*========== O zivotinjama stefan  ==========*/
+
+.ozivotinjama img{
+    
+    width: 250px;
+  }
+
+
+
+/*==========  Kraj o zivotinjama stefan  ==========*/
