@@ -4,13 +4,6 @@
   width: 135px;
   vertical-align: text-bottom;
 }
-.navbar span{
-  background: -webkit-linear-gradient(#780A0A, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 35px;
-}
-
 /*=========  MAIN  =========*/
 .main{ padding: 10px; }
 article{ padding: 10px; }
