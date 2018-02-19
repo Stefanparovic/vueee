@@ -282,10 +282,15 @@ article div div div div:last-child {
 /*========== O zivotinjama stefan  ==========*/
 
 .ozivotinjama img{
-    
+
     width: 250px;
   }
-
+.ozivotinjama{
+    box-shadow: 2px 2px 7px #CBC5C5;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
+}
 
 
 /*==========  Kraj o zivotinjama stefan  ==========*/
