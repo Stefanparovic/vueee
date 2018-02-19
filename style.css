@@ -282,14 +282,17 @@ article div div div div:last-child {
 /*========== O zivotinjama stefan  ==========*/
 
 .ozivotinjama img{
-
     width: 250px;
   }
 .ozivotinjama{
+    margin-top: 30px;
     box-shadow: 2px 2px 7px #CBC5C5;
     overflow: hidden;
     padding: 20px;
     border-radius: 10px;
+}
+.boja{
+  background-color: white;
 }
 
 
@@ -300,7 +303,7 @@ article div div div div:last-child {
 
 .kontakt{
 	margin: 0 auto;
-	width: 700px;	
+	width: 700px;
 }
 
 .kontakt a:link,
