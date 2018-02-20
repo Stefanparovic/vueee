@@ -34,10 +34,10 @@
 						<a class="nav-link" href="../index.html">Pocetna <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Artikli</a>
+						<a class="nav-link" href="dodajArtikal.html">Artikli</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link tool-tip" href="blog/blog.html">Blog<span class="badge badge-danger" data-toggle="tooltip" data-placement="bottom" title="Broj nepotvrdjenih komentara">3</span></a>
+						<a class="nav-link tool-tip" href="../blog/blog.html">Blog<span class="badge badge-danger" data-toggle="tooltip" data-placement="bottom" title="Broj nepotvrdjenih komentara">3</span></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#" onclick="displayLogin()">Login</a>
@@ -90,7 +90,7 @@
             </div> <!-- .col-5 -->
             <div class="offset-2 col-5">
                 <select class="custom-select" id="inputGroupSelect01">
-                <option selected>Izaberite grupu</option>
+                <option selected>Izaberi grupu</option>
                 <option value="1">Hrana</option>
                 <option value="2">Oprema</option>
               </select>
@@ -100,6 +100,7 @@
         <div class="row">
             <div class="col-5">
               <input type="text" class="form-control" placeholder="Naziv artikla">
+              <div class="col-2"></div>
           </div> <!-- .col-5 -->
               <div class="offset-2 col-5">
                 <input type="text" class="form-control" placeholder="Cena artikla">
@@ -132,6 +133,7 @@
 </div> <!-- .container -->
 
 <!-- ==============================  FOOTER  =============================== -->
+
 <div class="container-fluid"> <!--footer-->
 <div class="row bg-dark">
   <footer class="container">
@@ -194,7 +196,6 @@ function displaySignUp() {
 function close() {
   $("#overlay, #login").css("visibility", "hidden");
 }
-
 
 $(function () {
 $('[data-toggle="tooltip"]').tooltip()

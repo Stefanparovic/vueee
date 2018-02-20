@@ -5,21 +5,23 @@
 	<title>Shop</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="../../style.css">
 	<link rel="icon" type="image/png" href="../../images/favicon.png">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
 	<!-- ====================  HEADER  ================ -->
 	<div class="container"> <!-- navigacija -->
 		<div class="row navbar bg-dark">
 			<!-- ====================  LOGO  ==================== -->
-			<div class="col-3 d-none d-sm-block"> <!-- logo -->
-				<img src="../../images/favicon.png" class="nav-item"><span class="logo-span">Shop</span>
-			</div> <!-- logo -->
+		        <div class="col-3 d-none d-sm-block"> <!-- logo -->
+		            <a href="index.html"><img src="../../images/logo.png" class="nav-item"></a>
+		        </div> <!-- logo -->
 			<nav class="navbar navbar-expand-lg navbar-dark">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -33,12 +35,12 @@
 							<a class="nav-link" href="../index.html">Pocetna <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="">Artikli</a>
+							<a class="nav-link" href="../artikli/dodajArtikal.html">Artikli</a>
 						</li>
 						<li class="nav-item">
 							<!-- <div class="broj-komentara">0</div> -->
 							<!-- <a class="nav-link" href="blog.html">Blog <span class="badge badge-info">0</span></a> -->
-							<a class="nav-link tool-tip" href="blog/blog.html">Blog<span class="badge badge-danger" data-toggle="tooltip" data-placement="bottom" title="Broj nepotvrdjenih komentara">3</span></a>
+							<a class="nav-link tool-tip" href="blog.html">Blog<span class="badge badge-danger" data-toggle="tooltip" data-placement="bottom" title="Broj nepotvrdjenih komentara">3</span></a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#" onclick="displayLogin()">Login</a>
@@ -213,13 +215,21 @@
 
 
 	<!-- ====================  FOOTER  ==================== -->
-	<div class="container">
-		<div class="row">
-			<div class="container">
-				<p class="text-center">Copyright &copy;</p>
-			</div> <!-- .container -->
-		</div> <!-- .controwainer -->
-	</div> <!-- .container -->
+	<div class="container-fluid"> <!--footer-->
+	<div class="row bg-dark">
+	  <footer class="container">
+	      <div style="padding: 20px;" class="text-center text-light">
+	          Copyright &copy; by 5 Shop &nbsp;
+	          <span class="h4">
+	              <a href=""><i class="fab fa-facebook"></i></a>
+	              <a href=""><i class="fab fa-instagram"></i></a>
+	              <a href=""><i class="fab fa-twitter"></i></a>
+	              <a href=""><i class="fab fa-youtube"></i></a>
+	          </span> <!-- .h4 -->
+	      </div> <!-- .text-center .text-light -->
+	  </footer> <!-- footer -->
+	</div> <!-- .row .bg-dark -->
+	</div> <!--end footer-->
 
 	<script type="text/javascript">
 		$(function () {
