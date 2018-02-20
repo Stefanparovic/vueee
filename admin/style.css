@@ -6,7 +6,6 @@ strong{ display: block; }
   vertical-align: text-bottom;
 }
 table{ margin-top: 20px; }
-
 /*==========  INDEX  ==========*/
 .badge-primary{
   position: absolute;
@@ -139,4 +138,20 @@ input[type="file"]{
 	font-size: 15px;
 	height: 25px;
 	margin: 7px 0 0 5px;
+}
+
+/*==========  NEW  ARTICLE  ==========*/
+.article-title{
+    margin: 20px auto;
+}
+#new-article{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+input[type="text"]{
+    padding: 20px;
+    margin: 40px 0;
+}
+textarea{
+    margin-bottom: 40px;
 }
