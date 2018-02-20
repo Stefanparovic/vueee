@@ -6,21 +6,18 @@ strong{ display: block; }
   vertical-align: text-bottom;
 }
 table{ margin-top: 20px; }
-
 /*==========  INDEX  ==========*/
-.cat-btn{
-  text-align: center;
-}
-.badge-secondary{
+.badge-primary{
   position: absolute;
   top: 22px;
   left: 130px;
-  background: rgb(19,131,222);
+  padding-bottom: 5px;
 }
 a>h4{
   margin: 10px 5px 10px -20px;
+  border: none;
 }
-.card-block>.badge-danger{
+.card-block>.badge-warning{
   margin-top: 5px;
   width: 30px;
   font-size: 20px;
@@ -29,16 +26,17 @@ a>h4{
   padding: 5px;
   height: 40px;
 }
-a[href="blog.html"],
-a[href="../blog/blog.html"]{
+.tool-tip{
   position: relative;
   margin-right: 10px;
 }
-a[href="blog.html"]>.badge-danger,
-a[href="../blog/blog.html"]>.badge-danger{
+.tool-tip>.badge-danger{
   position: absolute;
   top: 12px;
   left: 42px;
+}
+.art-buttons>a{
+    margin-top: 0 !important;
 }
 /*==========  BLOG  ==========*/
 .blog{
@@ -140,4 +138,20 @@ input[type="file"]{
 	font-size: 15px;
 	height: 25px;
 	margin: 7px 0 0 5px;
+}
+
+/*==========  NEW  ARTICLE  ==========*/
+.article-title{
+    margin: 20px auto;
+}
+#new-article{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+input[type="text"]{
+    padding: 20px;
+    margin: 40px 0;
+}
+textarea{
+    margin-bottom: 40px;
 }

@@ -233,6 +233,11 @@ input[type=submit]:hover {
 /*==========  KRAJ LOGINA  ==========*/
 
 /************ danilo izmene ***********/
+body {
+    background-image: url("images/background/circles-and-roundabouts.png.png");
+    background-color: green;
+}
+
 #main {
     margin-top: 30px;
     margin-bottom: 30px
@@ -264,8 +269,9 @@ article.artikal1 img {
     max-height: 100px;
 }
 article.artikal2 img {
-    max-width: 500px;
-    max-height: 500px;
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 300px;
 }
 article div div div div:last-child {
     background-color: antiquewhite;
@@ -273,11 +279,14 @@ article div div div div:last-child {
 /********* kraj danilo izmene *********/
 
 /*========== O zivotinjama stefan  ==========*/
-
+.naslovv{
+  text-align: center;
+}
 .ozivotinjama img{
     width: 250px;
   }
 .ozivotinjama{
+  background-color: white;
     margin-top: 30px;
     box-shadow: 2px 2px 7px #CBC5C5;
     overflow: hidden;
@@ -323,7 +332,4 @@ article div div div div:last-child {
 		color:#ccc;
 	}
 }
-
-
-
 /*==========  Kraj kontakt sloba  ==========*/
