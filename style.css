@@ -279,7 +279,9 @@ article div div div div:last-child {
 /********* kraj danilo izmene *********/
 
 /*========== O zivotinjama stefan  ==========*/
-
+.naslovv{
+  text-align: center;
+}
 .ozivotinjama img{
     width: 250px;
   }
