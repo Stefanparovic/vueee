@@ -1,4 +1,16 @@
 /*==========  GLOBAL  ==========*/
+html{
+    min-height: 100%;
+    position: relative;
+}
+body{ margin-bottom: 70px; }
+footer{
+    bottom: 0;
+    min-width: 100%;
+    position: absolute;
+    height: 70px;
+    background: #212529;
+}
 .clear{ clear: both; }
 strong{ display: block; }
 .navbar img{
@@ -143,10 +155,13 @@ input[type="file"]{
 /*==========  NEW  ARTICLE  ==========*/
 .article-title{
     margin: 20px auto;
+    color: #28a745;
 }
 #new-article{
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
 }
 input[type="text"]{
     padding: 20px;
