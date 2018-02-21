@@ -149,7 +149,7 @@ form {
   background: rgba(255, 255, 255, 0.9);
   width: 380px;
   border: 1px solid teal;
-  border-radius: 3px;
+  border-radius: 10px;
   margin: 0 auto;
   visibility: hidden;
 }
@@ -234,8 +234,8 @@ input[type=submit]:hover {
 
 /************ danilo izmene ***********/
 body {
-    background-image: url("images/background/circles-and-roundabouts.png.png");
-    background-color: green;
+    background-image: url("images/pozz.jpg");
+
 }
 
 #main {
